@@ -1,7 +1,7 @@
 import {
   mobile,
   backend,
-  creator,
+  // creator,
   web,
   javascript,
   typescript,
@@ -46,17 +46,18 @@ const services = [
     icon: web,
   },
   {
-    title: "Ionic Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Ionic Developer",
+    icon: mobile,
   },
+
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
