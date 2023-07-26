@@ -13,16 +13,20 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  angular,
+  ionic,
+  next,
+  sass,
+  // docker,
   threejs,
+  yogaya,
+  camsol,
+  gg,
+  metaverse,
+  hohm,
+  sync,
+  prompt,
+  dezign
 } from "../assets";
 
 export const navLinks = [
@@ -70,6 +74,10 @@ const technologies = [
     icon: css,
   },
   {
+    name: "SCSS",
+    icon: sass,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -86,8 +94,20 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "Next JS",
+    icon: next,
+  },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Ionic",
+    icon: ionic,
   },
   {
     name: "Node JS",
@@ -104,69 +124,59 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Backend | Nodejs Developer",
+    company_name: "CAMSOL  Innovation GmbH, Berlin",
+    icon: camsol,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2022 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Led the backend team in designing and implementing RESTful APIs for a wine-tasting/wine marketplace platform, adhering to best practices and industry standards.",
+      "Developed key features like authentication, payments integration, error handling, and logging functionalities using Node.js, Express.js, and MongoDB.",
+      "Implemented secure authentication mechanisms with JWT (JSON Web Tokens) and role-based access control (RBAC) for user security and effective permission management.",
+      "Successfully integrated payment gateways to facilitate secure and seamless transactions, ensuring compliance with PCI-DSS standards.",
+      "Collaborated with cross-functional teams to ensure seamless integration of frontend and backend components.",
+      "Actively participated in code reviews, sprint reviews, and Agile development processes to deliver high-quality solutions on time.",
+      "Maintained API documentation for knowledge transfer and onboarding of new team members."
+    ]
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "FullStack Developer",
+    company_name: "YOGAYA Inc., Bellevue , WA",
+    icon: yogaya,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2021 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Led a team in developing a booking and reservation management system for HOHM SLEEP PODS, using Node.js, Angular, MongoDB, and AWS.",
+      "Employed Agile methodology to ensure continuous improvement and client satisfaction.",
+      "Acted as a key liaison between stakeholders, gathering requirements and aligning deliverables with business objectives.",
+      "Orchestrated the entire development lifecycle, managing project planning, resource allocation, timeline adherence, and quality assurance.",
+      "Implemented pivotal features such as booking management, reservation tracking, payment integration, user authentication, error handling and logging for an exceptional user experience.",
+      "Developed RESTful APIs employing best coding standards.",
+      "Integrated frontend components with backend APIs and ensured smooth data flow.",
+      "Collaborated with UX/UI designers for seamless development and integration of design elements.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+  },
+  {
+    title: "Front-end Developer",
+    company_name: "GO-GROUPS Ltd",
+    icon: gg,
+    iconBg: "#E6DEDD",
+    date: "June 2019 - Dec 2021",
+    points: [
+      "Developed interactive interfaces an E-learning System for Cameroon National exams using Angular",
+      "Collaborate with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Led the development of user interfaces for an online ticketing and bus seat reservation system using Angular for the web and Ionic for the Mobile.",
+      "Collaborated with cross-functional teams to gather requirements, design UI/UX, and implement responsive layouts.",
+      "Conducted testing and debugging to ensure high-quality code delivery.",
+      "Contributed to maintaining the Go-Groups UI Library, introducing new features and best practices."
+    ]
   },
 ];
 
@@ -199,16 +209,42 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Hohm",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, book, and manage hohm sleep pods in various institutions, providing a convenient and efficient solution for user needs.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+    ],
+    image: hohm,
+    live_demo_link: "https://hohm.life/",
+    source_code_link: "",
+  },
+  {
+    name: "Sync",
+    description:
+      "Web-based social App that that allows users to create accounts, connect, share, create content, and interact with friends.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "sanity",
         color: "green-text-gradient",
       },
       {
@@ -216,50 +252,91 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sync,
+    live_demo_link: "https://syncme.netlify.app/",
+    source_code_link: "https://github.com/SirriCelles/sync",
   },
   {
-    name: "Job IT",
+    name: "AI Prompts",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Open-source AI prompting tool to discover, create and share creative prompts for the modern world.",
     tags: [
+      {
+        name: "next.js13",
+        color: "green-text-gradient",
+      },
+      {
+        name: "next-auth",
+        color: "green-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "openai",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: prompt,
+    live_demo_link: "https://prompt-verse-3r7hzwsdy-sirricelles.vercel.app/",
+    source_code_link: "https://github.com/SirriCelles/prompt-verse",
   },
   {
-    name: "Trip Guide",
+    name: "Meta-Verse",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Futuristic Web 3 site",
     tags: [
       {
-        name: "nextjs",
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: metaverse,
+    live_demo_link: "https://meta-realm.vercel.app/",
+    source_code_link: "https://github.com/SirriCelles/meta-verse",
+  },
+  {
+    name: "Dezign",
+    description:
+      "3D customization tool",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dezign,
+    live_demo_link: "https://ai-dezigns.netlify.app/",
+    source_code_link: "https://github.com/SirriCelles/dezign",
   },
 ];
 

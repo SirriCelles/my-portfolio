@@ -20,16 +20,23 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import angular from './tech/angular.png';
+import ionic from './tech/ionic.png';
+import next from './tech/next.png';
+import sass from './tech/sass.png';
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import yogaya from './company/yogaya.png';
+import camsol from './company/camsol.png';
+import gg from './company/gg.jpeg';
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import hohm from './hohm.png';
+import sync from './sync.png';
+import metaverse from './meta-verse.png';
+import dezign from './dezign.png';
+import prompt from './prompt.png';
 import mylogo from './logo.png';
+import link from './link.svg';
+
 
 export {
   logo,
@@ -54,11 +61,17 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  angular,
+  ionic,
+  next,
+  sass,
+  link,
+  yogaya,
+  camsol,
+  gg,
+  dezign,
+  prompt,
+  metaverse,
+  hohm,
+  sync
 };
