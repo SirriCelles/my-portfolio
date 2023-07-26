@@ -32,7 +32,7 @@ const ProjectCard = ({ name, description, tags, index, image, source_code_link, 
             {
               live_demo_link?.length !== 0 && (
                 <div
-                    onClick={() => window.open(source_code_link, "_blank")}
+                    onClick={() => window.open(live_demo_link, "_blank")}
                     className="white-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
                   >
                     <img
