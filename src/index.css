@@ -24,9 +24,9 @@
 }
 
 .head-gradient {
-  background: "#ff1e9c";
-  background: linear-gradient(90.13deg, #ff1e9c 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #ff1e9c 1.9%, #bf61ff 97.5%);
+  background: "	#ff0000";
+  background: linear-gradient(90.13deg, #ff0000 1.9%, #ff1e9c 1.9%, #bf61ff 90.5%);
+  background: -webkit-linear-gradient(-90.13deg, #ff0000 1.9%, #ff1e9c 1.9%, #bf61ff 90.5%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

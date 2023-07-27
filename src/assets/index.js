@@ -29,6 +29,7 @@ import yogaya from './company/yogaya.png';
 import camsol from './company/camsol.png';
 import gg from './company/gg.jpeg';
 
+import gowaka from './gowaka.png';
 import hohm from './hohm.png';
 import sync from './sync.png';
 import metaverse from './meta-verse.png';
@@ -36,6 +37,12 @@ import dezign from './dezign.png';
 import prompt from './prompt.png';
 import mylogo from './logo.png';
 import link from './link.svg';
+
+import linkedIn from './linkedin.svg';
+import twitter from './twitter.svg';
+import instagram from './instagram.svg';
+import facebook from './facebook.svg';
+
 
 
 export {
@@ -73,5 +80,10 @@ export {
   prompt,
   metaverse,
   hohm,
-  sync
+  sync,
+  gowaka,
+  linkedIn,
+  twitter,
+  instagram,
+  facebook
 };

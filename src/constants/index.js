@@ -5,10 +5,10 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
+  // html,
+  // css,
   reactjs,
-  redux,
+  // redux,
   tailwind,
   nodejs,
   mongodb,
@@ -22,11 +22,17 @@ import {
   yogaya,
   camsol,
   gg,
-  metaverse,
+  // metaverse,
   hohm,
   sync,
-  prompt,
-  dezign
+  // prompt,
+  gowaka,
+  logo,
+  twitter,
+  linkedIn,
+  instagram,
+  github,
+  facebook
 } from "../assets";
 
 export const navLinks = [
@@ -65,18 +71,6 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "SCSS",
-    icon: sass,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -85,20 +79,20 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Angular",
+    icon: angular,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "React JS",
+    icon: reactjs,
   },
   {
     name: "Next JS",
     icon: next,
   },
   {
-    name: "Angular",
-    icon: angular,
+    name: "SCSS",
+    icon: sass,
   },
   {
     name: "Tailwind CSS",
@@ -206,6 +200,34 @@ const testimonials = [
   },
 ];
 
+const socials = [
+  {
+    name: 'Github',
+    image: github,
+    url: 'https://github.com/SirriCelles'
+  },
+  {
+    name: 'linkedin',
+    image: linkedIn,
+    url: 'https://www.linkedin.com/in/sirricelles'
+  },
+  {
+    name: 'twitter',
+    image: twitter,
+    url: 'https://twitter.com/SirriCelles?t=fZl0blItFUQDC5vozH47nA&s=09'
+  },
+  {
+    name: 'instagram',
+    image: instagram,
+    url: 'https://instagram.com/its_cells?igshid=MjEwN2IyYWYwYw=='
+  },
+  {
+    name: 'facebook',
+    image: facebook,
+    url: 'https://www.facebook.com/Derecelles?mibextid=LQQJ4d'
+  },
+];
+
 const projects = [
   {
     name: "Hohm",
@@ -234,6 +256,36 @@ const projects = [
     source_code_link: "",
   },
   {
+    name: "Gowaka",
+    description:
+      "GoWaka, a Web-based and Mobile-based platform, is a travel booking and seat reservation service for Africa and Africans at home and in the Diaspora",
+    tags: [
+      {
+        name: "Angular",
+        color: "head-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Ionic",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "responsiveUI-design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "primeng",
+        color: "head-gradient",
+      }
+    ],
+    image: gowaka,
+    live_demo_link: "https://www.mygowaka.com/",
+    source_code_link: "",
+  },
+  {
     name: "Sync",
     description:
       "Web-based social App that that allows users to create accounts, connect, share, create content, and interact with friends.",
@@ -255,88 +307,96 @@ const projects = [
     live_demo_link: "https://syncme.netlify.app/",
     source_code_link: "https://github.com/SirriCelles/sync",
   },
+
   {
-    name: "AI Prompts",
+    name: "See More",
     description:
-      "Open-source AI prompting tool to discover, create and share creative prompts for the modern world.",
+      "Visit My GitHub profile to see even more facinating Projects.",
     tags: [
+      {
+        name: "three.js",
+        color: "blue-text-gradient",
+      },
       {
         name: "next.js13",
         color: "green-text-gradient",
+      },
+
+      {
+        name: "openai",
+        color: "pink-text-gradient",
       },
       {
         name: "next-auth",
         color: "green-text-gradient",
       },
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "openai",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: prompt,
-    live_demo_link: "https://prompt-verse-3r7hzwsdy-sirricelles.vercel.app/",
-    source_code_link: "https://github.com/SirriCelles/prompt-verse",
-  },
-  {
-    name: "Meta-Verse",
-    description:
-      "Futuristic Web 3 site",
-    tags: [
-      {
-        name: "next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
+
       {
         name: "framer-motion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        color: "head-gradient",
       },
     ],
-    image: metaverse,
-    live_demo_link: "https://meta-realm.vercel.app/",
-    source_code_link: "https://github.com/SirriCelles/meta-verse",
+    image: logo,
+    live_demo_link: "",
+    source_code_link: "https://github.com/SirriCelles",
   },
-  {
-    name: "Dezign",
-    description:
-      "3D customization tool",
-    tags: [
-      {
-        name: "react.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "three.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "framer-motion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: dezign,
-    live_demo_link: "https://ai-dezigns.netlify.app/",
-    source_code_link: "https://github.com/SirriCelles/dezign",
-  },
+  // {
+  //   name: "AI Prompts",
+  //   description:
+  //     "Open-source AI prompting tool to discover, create and share creative prompts for the modern world.",
+  //   tags: [
+  //     {
+  //       name: "next.js13",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "next-auth",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "openai",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: prompt,
+  //   live_demo_link: "https://prompt-verse-3r7hzwsdy-sirricelles.vercel.app/",
+  //   source_code_link: "https://github.com/SirriCelles/prompt-verse",
+  // },
+  // {
+  //   name: "Meta-Verse",
+  //   description:
+  //     "Futuristic Web 3 site",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "framer-motion",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: metaverse,
+  //   live_demo_link: "https://meta-realm.vercel.app/",
+  //   source_code_link: "https://github.com/SirriCelles/meta-verse",
+  // },
+
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, socials };
