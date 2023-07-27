@@ -12,6 +12,13 @@ const Computers = ({ isMobile }) => {
   const computer = useGLTF('./desktop_pc/scene.gltf');
   return (
     <mesh>
+      <primitive
+        object={computer.scene}
+        scale={ isMobile ? 0.65 : 0.75}
+        position={isMobile ? [0, -3, -2.2] : [0, -2.8, -1.5]}
+        rotation={[-0.01, -0.8, -0.1]}
+        dispose={null}
+      />
       <hemisphereLight
         intensity={0.15}
         groundColor="black"
@@ -24,12 +31,6 @@ const Computers = ({ isMobile }) => {
         intensity={1}
         castShadow
         shadow-mapSize={1024}
-      />
-      <primitive
-        object={computer.scene}
-        scale={ isMobile ? 0.65 : 0.7}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
   )
@@ -63,7 +64,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop="demand"
       shadows
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [20, 3, 5], fov: 22 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<Loader />}>

@@ -11,7 +11,7 @@ const Tech = () => {
             className="w-28 h-28"
             key={tech.name}
           >
-            <BallCanvas icon={tech.icon} />
+            {/* <BallCanvas icon={tech.icon} /> */}
           </div>
         ))
       }

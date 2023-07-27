@@ -12,7 +12,7 @@ import SectionWrapper from "../hoc/SectionWrapper";
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
-      contentStyle={{ background: '#1d1836', color: '#fff' }}
+      contentStyle={{ background: '#111111', color: '#fff' }}
       contentArrowStyle={{ borderRight: '7px solid #232631'}}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
