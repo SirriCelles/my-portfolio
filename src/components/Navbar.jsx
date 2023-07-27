@@ -26,7 +26,7 @@ const Navbar = () => {
             className="w-11 h-11 object-contain"
           />
           <p
-            className="text-white text-[18px] font-bold cursor-pointer flex"
+            className="text-secondary text-[18px] font-bold cursor-pointer flex"
           >
             Sirri &nbsp;<span className="sm:block hidden"> | Celles</span>
           </p>
@@ -45,6 +45,13 @@ const Navbar = () => {
               </li>
             ))
           }
+          <a
+            href="./public/Sirri_CV.pdf"
+            download
+            className="border border-slate-300 hover:border-indigo-300 cursor-pointer"
+          >
+            Download CV
+          </a>
         </ul>
 
         {/* For mobile navigation */}
