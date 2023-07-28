@@ -6,7 +6,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 import { styles } from "../styles";
 import { experiences } from "../constants";
-import { textVariant, fadeIn } from "../utils/motion";
+import { textVariant} from "../utils/motion";
 import SectionWrapper from "../hoc/SectionWrapper";
 
 const ExperienceCard = ({ experience }) => {
@@ -50,7 +50,7 @@ const Experience = () => {
   return (
     <>
     <motion.div
-      variants={fadeIn('right', 'spring', 0.25, 0.75)}
+      variants={textVariant()}
     >
       <p className={`${styles.sectionSubText}`}>What I have done so far</p>
       <h2 className={`${styles.sectionHeadText}`}>Work Experience</h2>
