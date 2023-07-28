@@ -15,8 +15,8 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={ isMobile ? 0.65 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -2.8, -1.5]}
-        rotation={[-0.01, -0.8, -0.1]}
+        position={isMobile ? [-4, -3, -2.5] : [0, -2.8, -1.5]}
+        rotation={isMobile ? [-0.01, -0.9, -0.1] : [-0.01, -0.8, -0.1]}
         dispose={null}
       />
       <hemisphereLight
@@ -64,7 +64,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop="demand"
       shadows
-      camera={{ position: [20, 3, 5], fov: 22 }}
+      camera={isMobile ? { position: [20, 3, 5], fov: 25 } : { position: [20, 3, 5], fov: 22 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<Loader />}>

@@ -32,7 +32,8 @@ import {
   linkedIn,
   instagram,
   github,
-  facebook
+  facebook,
+  mylogo
 } from "../assets";
 
 export const navLinks = [
@@ -244,7 +245,7 @@ const projects = [
       },
       {
         name: "Node.js",
-        color: "blue-text-gradient",
+        color: "head-gradient",
       },
       {
         name: "restapi",
@@ -311,7 +312,7 @@ const projects = [
   {
     name: "See More",
     description:
-      "Visit My GitHub profile to see even more facinating Projects.",
+      "Visit my GitHub profile to see even more facinating Projects.",
     tags: [
       {
         name: "three.js",
@@ -336,7 +337,7 @@ const projects = [
         color: "head-gradient",
       },
     ],
-    image: logo,
+    image: mylogo,
     live_demo_link: "",
     source_code_link: "https://github.com/SirriCelles",
   },
