@@ -46,7 +46,7 @@ const Navbar = () => {
             ))
           }
           <a
-            href="./public/Sirri_CV.pdf"
+            href="/Sirri_CV.pdf"
             download
             className="border border-slate-300 hover:border-indigo-300 shadow-md shadow-primary cursor-pointer"
           >
@@ -84,6 +84,13 @@ const Navbar = () => {
                   </li>
                 ))
               }
+              <a
+                href="/Sirri_CV.pdf"
+                download
+                className="border border-slate-300 hover:border-indigo-300 shadow-md shadow-primary cursor-pointer"
+              >
+                Download CV
+              </a>
             </ul>
           </div>
         </div>
