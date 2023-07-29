@@ -32,9 +32,6 @@ import gg from './company/gg.jpeg';
 import gowaka from './gowaka.png';
 import hohm from './hohm.png';
 import sync from './sync.png';
-import metaverse from './meta-verse.png';
-import dezign from './dezign.png';
-import prompt from './prompt.png';
 import mylogo from './logo.png';
 import link from './link.svg';
 
@@ -76,9 +73,6 @@ export {
   yogaya,
   camsol,
   gg,
-  dezign,
-  prompt,
-  metaverse,
   hohm,
   sync,
   gowaka,

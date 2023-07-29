@@ -27,7 +27,6 @@ import {
   sync,
   // prompt,
   gowaka,
-  logo,
   twitter,
   linkedIn,
   instagram,
@@ -340,63 +339,7 @@ const projects = [
     image: mylogo,
     live_demo_link: "",
     source_code_link: "https://github.com/SirriCelles",
-  },
-  // {
-  //   name: "AI Prompts",
-  //   description:
-  //     "Open-source AI prompting tool to discover, create and share creative prompts for the modern world.",
-  //   tags: [
-  //     {
-  //       name: "next.js13",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "next-auth",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "openai",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: prompt,
-  //   live_demo_link: "https://prompt-verse-3r7hzwsdy-sirricelles.vercel.app/",
-  //   source_code_link: "https://github.com/SirriCelles/prompt-verse",
-  // },
-  // {
-  //   name: "Meta-Verse",
-  //   description:
-  //     "Futuristic Web 3 site",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "framer-motion",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: metaverse,
-  //   live_demo_link: "https://meta-realm.vercel.app/",
-  //   source_code_link: "https://github.com/SirriCelles/meta-verse",
-  // },
+  }
 
 ];
 
